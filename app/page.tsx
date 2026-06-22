@@ -36,11 +36,6 @@ export default function Home() {
           <span className="text-xl">⚖️</span>
           <span className="text-white font-semibold tracking-wide text-sm">CLE Tracker</span>
         </div>
-        <div className="ml-auto flex items-center gap-6 text-slate-400 text-sm">
-          <span className="hover:text-slate-200 cursor-pointer transition-colors">Features</span>
-          <span className="hover:text-slate-200 cursor-pointer transition-colors">Pricing</span>
-          <span className="hover:text-slate-200 cursor-pointer transition-colors">Sign In</span>
-        </div>
       </nav>
 
       {/* Hero */}
@@ -93,29 +88,11 @@ export default function Home() {
           )}
         </div>
 
-        {/* Trust badges */}
-        <div className="fade-in-up-delay-2 mt-12 flex items-center gap-6 text-slate-500 text-xs">
-          <div className="flex items-center gap-1.5">
-            <span className="text-amber-500">✓</span>
-            <span>Bar-approved tracking</span>
-          </div>
-          <div className="w-px h-3 bg-slate-600" />
-          <div className="flex items-center gap-1.5">
-            <span className="text-amber-500">✓</span>
-            <span>MCLE compliant</span>
-          </div>
-          <div className="w-px h-3 bg-slate-600" />
-          <div className="flex items-center gap-1.5">
-            <span className="text-amber-500">✓</span>
-            <span>SOC 2 certified</span>
-          </div>
-        </div>
       </main>
 
       {/* Footer */}
       <footer className="w-full px-8 py-4 border-t border-slate-700/50 flex items-center justify-between text-slate-500 text-xs">
         <span>© 2026 CLE Tracker, Inc. All rights reserved.</span>
-        <span>Trusted by attorneys in all 50 states</span>
       </footer>
     </div>
   );
