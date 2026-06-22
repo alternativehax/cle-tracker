@@ -15,7 +15,7 @@ const STATES = [
   "West Virginia", "Wisconsin", "Wyoming",
 ];
 
-const REDIRECT_URL = "https://youtube.com/shorts/Ay8lynMZ4mE";
+const REDIRECT_URL = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
